@@ -1,7 +1,7 @@
 using { Currency, managed } from '@sap/cds/common';
 namespace consetto.stocktracker; 
 
-entity Stock : managed { 
+entity Stocks : managed { 
   key StockUUID : UUID;
   ticker : String(4);
   title  : localized String(80);
@@ -12,3 +12,7 @@ entity Stock : managed {
   ISIN   : String(12);
 }
 
+entity Portfolio : managed {
+  key PortfolioUUID : UUID;
+   title  : localized String(80);
+}
