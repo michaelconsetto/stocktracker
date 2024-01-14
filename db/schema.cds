@@ -7,12 +7,13 @@ entity Stocks : managed {
   title  : localized String(80);
   descr  : localized String(300);
   wkn    : String(6);
-  ISIN   : String(12);
+  isin   : String(12);
 }
 
 entity Portfolios : managed {
   key PortfolioUUID : UUID;
   title             : localized String(80);
+  transaction      : Association to many Transactions;
 }
 
 entity Transactions: managed {
@@ -22,5 +23,6 @@ entity Transactions: managed {
    price              : Decimal(12,4);
    currency           : Currency;
    quanity            : Decimal(12,4);
+   totalprice         : Decimal(12,4);
    portfolio          : Association to Portfolios;
 }
