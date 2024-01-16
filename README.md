@@ -1,19 +1,17 @@
-# Getting Started
+# Stock Tracker
 
-Welcome to your new project.
-
-It contains these folders and files, following our recommended project layout:
+This is a simple stock tracker app based on the SAP Cloud Application Programming Model (CAP).
 
 File or Folder | Purpose
 ---------|----------
-`app/` | content for UI frontends goes here
-`db/` | your domain models and data go here
-`srv/` | your service models and code go here
+`app/` | content for UI frontends 
+`db/` |  domain models and data 
+`srv/` |  service models and code
 `package.json` | project metadata and configuration
-`readme.md` | this getting started guide
 
 
-## Next Steps
+
+## Run it on your local machine
 
 - Open a new terminal and run `cds watch` 
 - (in VS Code simply choose _**Terminal** > Run Task > cds watch_)
@@ -22,4 +20,4 @@ File or Folder | Purpose
 
 ## Learn More
 
-Learn more at https://cap.cloud.sap/docs/get-started/.
+Learn more about CAP at https://cap.cloud.sap/docs/
