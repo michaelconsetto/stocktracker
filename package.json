@@ -1,9 +1,9 @@
 {
   "name": "stocktracker",
   "version": "1.0.0",
-  "description": "A simple CAP project.",
+  "description": "A stock tracker app",
   "repository": "https://github.com/michaelconsetto/stocktracker",
-  "license": "UNLICENSED",
+  "license": "Apache-2.0",
   "private": true,
   "dependencies": {
     "@sap/cds": "^7",

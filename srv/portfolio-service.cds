@@ -9,6 +9,5 @@ service PortfolioService @(requires: 'authenticated-user') {
             transaction.price      as price,
             @Aggregation.default: #sum
             transaction.totalprice
-
         }
 }
