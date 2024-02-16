@@ -6,7 +6,7 @@ entity Stocks : managed {
   ticker : String(4);
   title  : localized String(80);
   descr  : localized String(300);
-  wkn    : String(6);
+  wkn    : String(6) @assert.format: '\d\d\d\d\d\d';
   isin   : String(12);
 }
 
